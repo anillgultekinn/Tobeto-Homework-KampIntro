@@ -13,12 +13,18 @@ namespace OOP3
         {
             //Başvuran bilgilerini değerlendirme
 
+            //KonutKrediManager konutKrediManager = new KonutKrediManager();
+            //konutKrediManager.Hesapla();
+            //eğer böyle yaparsak tüm başvurular konut kredisi üzerinden hesaplanır
+
 
             krediManager.Hesapla();
+            //başvuru kredi bağımsız hale geldi
+
             //loggerService.Log();
 
             foreach (var loggerService in loggerServices)
-            {
+            { 
                 loggerService.Log();
             }
         }

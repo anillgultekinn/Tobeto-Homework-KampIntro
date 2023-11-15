@@ -22,6 +22,7 @@
 
             Customer musteri3 = new GercekMusteri();
             Customer musteri4 = new TuzelMusteri();
+            //Customer GercekMusteri ve TuzelMusteri nin referansını tutuyor 
 
 
             CustomerManager customerManager = new CustomerManager();

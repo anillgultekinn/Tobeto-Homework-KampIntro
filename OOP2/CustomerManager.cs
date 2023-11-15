@@ -8,9 +8,13 @@ namespace OOP2
 {
     public class CustomerManager
     {
-        public void Add(Customer customer)
+        //iş sınıfları
+        public void Add(Customer customer)  //polymorphism örneği
         {
+            //if (musteri.)
+            //{
 
+            //} 
         }
     }
 }
