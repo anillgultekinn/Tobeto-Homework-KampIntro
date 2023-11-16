@@ -22,8 +22,10 @@ namespace GenericsIntro
             //new dediğimiz zaman yeni referans numarası alır önceki elemanlar silinir. bu yüzden bu elemanlar silinmesin diye temparray e atadık
 
             items = new T[items.Length + 1];
-            //mevcut eleman sayısını 1 arttırır
+            //mevcut eleman sayısını 1 arttırırExtended description
 
+            
+            //temp arreye emanet verdiğimiz itemleri geri alma.
             for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i];
